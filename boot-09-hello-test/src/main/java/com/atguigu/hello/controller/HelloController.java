@@ -22,4 +22,9 @@ public class HelloController {
         return helloService.sayHello(userName);
     }
 
+    @GetMapping(value = "/hello2")
+    public String hello2(){
+        return "hello2";
+    }
+
 }
