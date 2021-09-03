@@ -26,6 +26,7 @@ public class HelloController {
     public String hello2(){
         //hello the world
         //test from remote add
+        //test from clone local
         return "hello2";
     }
 
