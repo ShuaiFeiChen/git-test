@@ -24,6 +24,7 @@ public class HelloController {
 
     @GetMapping(value = "/hello2")
     public String hello2(){
+        //hello the world
         return "hello2";
     }
 
